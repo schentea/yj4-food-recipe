@@ -1,6 +1,6 @@
 export default function MainPage() {
   fetch(
-    "http://openapi.foodsafetykorea.go.kr/api/3b3433ab775d49de81f9/COOKRCP01/json/1/1"
+    "https://openapi.foodsafetykorea.go.kr/api/3b3433ab775d49de81f9/COOKRCP01/json/1/5"
   )
     .then((res) => res.json())
     .then((json) => {
