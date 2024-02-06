@@ -7,8 +7,10 @@ export default function MainPage() {
       console.log(json.COOKRCP01.row);
     });
   return (
-    <div className="w-full h-full flex justify-center items-center">
-      <div className="max-w-7xl w-full h-full flex justify-center items-center bg-red-500"></div>
+    <div className="w-full h-80 flex justify-center items-center">
+      <div className="max-w-7xl w-full h-full flex justify-center items-center bg-red-500">
+        <h2>F12</h2>
+      </div>
     </div>
   );
 }
