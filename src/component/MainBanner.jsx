@@ -9,7 +9,7 @@ export default function MainBanner() {
   if (!isLoading) {
     testImage = data?.COOKRCP01.row[0].ATT_FILE_NO_MK;
   }
-  console.log(testImage);
+  console.log(data);
 
   return (
     <div className="w-full h-[100vh] flex flex-col justify-center">
