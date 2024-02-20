@@ -9,7 +9,7 @@ const baseUrl = "https://openapi.foodsafetykorea.go.kr";
 
 export async function defaultApi() {
   try {
-    return await fetch(`${baseUrl}/api/${apiKey}/COOKRCP01/json/1/5`).then(
+    return await fetch(`${baseUrl}/api/${apiKey}/COOKRCP01/json/1/100`).then(
       (res) => res.json()
     );
   } catch (error) {

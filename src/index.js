@@ -5,6 +5,9 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainPage from "./routes/MainPage";
 import NotFound from "./routes/NotFound";
 import { QueryClient, QueryClientProvider } from "react-query";
+import Announce from "./routes/Announce";
+import Noticemain from "./routes/Noticemain";
+import Recipe from "./routes/Recipe";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,18 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <MainPage />,
+      },
+      {
+        path: "Announce",
+        element: <Announce />,
+      },
+      {
+        path: "Noticemain",
+        element: <Noticemain />,
+      },
+      {
+        path: "Recipe",
+        element: <Recipe />,
       },
     ],
   },
